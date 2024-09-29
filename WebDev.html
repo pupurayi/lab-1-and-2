@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Web Development Technologies</title>
+      <link rel="stylesheet" href="css/stylesheet.css">
+   </head>
+   <body>
+      <header>
+         <nav>
+            <ul>
+               <li><a href="#lab1">Lab 1</a></li>
+               <li><a href="#lab2">Lab 2</a></li>
+               <li><a href="#submit">Submit</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <div class="logo">
+            <img src="HIT_logo.png" alt="Harare Institute of Technology">
+            <h1>Web Development and Technologies </h1>
+         </div>
+         <section id="lab1">
+            <div class="container">
+               <h2 >Lab 1: HTML5 and CSS3 Basics</h2>
+               <!-- <pre>Objectives</pre> --> 
+               <p>
+                  <strong>Objectives:</strong>
+               <ul>
+                  <li>Create a basic HTML5 structure for a webpage.</li>
+                  <li>Apply CSS styles to elements to modify their appearance.</li>
+                  <li>Understand the concept of CSS selectors.</li>
+               </ul>
+               </p>
+               <p>
+                  <strong>Tasks:</strong>
+               <ol type="1">
+                  <li>Create an HTML file with a basic structure (head, body, title,etc.).</li>
+                  <li>Add content to the webpage (headings, paragraphs, images,links).</li>
+                  <li>Apply CSS styles to change the font, colour, background, and layout of the elements.</li>
+                  <li>Experiment with different CSS selectors (e.g., class, id, element).</li>
+               </ol>
+               </p>
+            </div>
+         </section>
+         <section id="lab2">
+            <div class="container">
+               <h2>Lab 2: JavaScript Fundamentals</h2>
+               <p>
+                  <strong>Objectives:</strong>
+               <ul>
+                  <li>Write simple JavaScript code to interact with HTML elements.</li>
+                  <li>Understand basic JavaScript syntax and data types.</li>
+                  <li>Create event handlers to respond to user interactions.</li>
+               </ul>
+               </p>
+               <p >
+                  <strong>Tasks:</strong>
+               <ol type="1" id="colourParagraph"   >
+                  <li>Add a JavaScript file to your HTML page.</li>
+                  <li>Write JavaScript code to modify the content of an HTML element.</li>
+                  <li>Create a button that, when clicked, changes the color of aparagraph.</li>
+                  <li>Use JavaScript to validate user input in a form.</li>
+               </ol>
+               </p>
+               <button id="changeColourButton">Change Color</button>
+            </div>
+         </section>
+         <section id="submit">
+            <div class="container">
+               This assignment is to be submitted <a href="https://classroom.google.com/c/MjI4MDYyMzQwODM5/a/NzE4MTcyODgxMDg4/details" target="_blank"> here</a> on our google classroom platform. 
+               <section>
+                  <div class="container">
+                     <form id="myForm">
+                        <label for="name"> Name :</label>
+                        <input type="text" id="name" name="name">
+                        <button type="submit"> Submit Assignment</button>
+                        <p id="errorMessage" style="color:red"></p>
+                     </form>
+                  </div>
+               </section>
+            </div>
+         </section>
+      </main>
+      <footer>
+         <small>© 2024 Pupurayi Paula Chinyavada</small>
+      </footer>
+      <script src="javascript/script.js"></script>
+   </body>
+</html>
